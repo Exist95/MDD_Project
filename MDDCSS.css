@@ -1,0 +1,74 @@
+:root {
+    --white-color : #FFFFFF;
+    --black-color : #050505;
+    --blue-color : #2345F5;
+    --red-color : #F52323;
+    --grey-dark-color : #626262;
+    --grey-light-color : #949191;
+
+     /* size */
+    --side-padding : 12px;
+    --avatar-size : 36px;
+
+    /* font size */
+    --font-large : 18px;
+    --font-medium : 14px;
+    --font-small : 12px;
+    --font-micro : 10px;
+}
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    display : flex;
+    justify-content: space-between;
+    padding: var(--padding);
+    background-color : var(--black-color);
+    color : var(--white-color);
+}
+
+header .logo {
+    font-size : var(--font-large);
+}
+
+header .logo i {
+    font-size : var(--font-large);
+}
+
+
+header .MDD {
+    font-size : var(--font-large);
+
+}
+
+
+#research{
+    font-size : 30px;
+    position : absolute;
+    left : 400%;
+}
+
+
+#AM{
+    font-size : 40px; 
+}
+
+
+
+Image{
+    position : absolute;
+    left : 45%
+}
+
+
+
+
+
