@@ -11,63 +11,88 @@
     --avatar-size : 36px;
 
     /* font size */
+    --font-xxlarge : 40px;
+    --font-xlarge : 30px;
     --font-large : 18px;
     --font-medium : 14px;
     --font-small : 12px;
     --font-micro : 10px;
+
+    /* font weight */
+    --font-bold : bold;
 }
 
 * {
-    padding : 0;
-    margin : 0;
-    box-sizing : border-box;
+    text-align : center;
 }
 
 body {
     font-family: Roboto;
 }
 
+/* header */
 header {
     display : flex;
-    justify-content: space-between;
-    padding: var(--padding);
-    background-color : var(--black-color);
     color : var(--white-color);
+    font-size : 80px;
+    display: block;
+    padding : 0px;
+    margin : 0 auto;
 }
 
 header .logo {
-    font-size : var(--font-large);
+    top : 60px;
 }
 
 header .logo i {
-    font-size : var(--font-large);
+    color : var(--red-color);
+    font-size : 80px;
 }
 
-
-header .MDD {
-    font-size : var(--font-large);
-
+.MDD {
+    color : var(--black-color); 
 }
 
+/* research & button */
+.TEXT {
 
-#research{
+    color : var(--white-color);
+    padding : 0px;
+    height : 20px;
+}
+
+.Text .text{
     font-size : 30px;
-    position : absolute;
-    left : 400%;
 }
 
-
-#AM{
-    font-size : 40px; 
+.research{
+    font-size : 30px;
 }
 
-
-
-Image{
-    position : absolute;
-    left : 45%
+/* description */
+.description {
+    font-weight : var(--font-bold);
+    padding : 0px;
 }
 
+.AM {
+    font-size : var(--font-xlarge);
+    line-height : 200%;
+}
+
+.danger{
+    font-size : 20px;
+    text-align : center;
+    color : red;
+
+}
+
+.image{
+    padding : 0px;
+    margin : 0 auto;
+    display : block;
+    font-size : var(--font-xxlarge);
+}
 
 
 
